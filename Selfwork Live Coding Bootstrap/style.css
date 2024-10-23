@@ -1,0 +1,468 @@
+.roboto-black, .mcd {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700 !important;
+  font-style: normal;
+}
+.ubuntu-regular {
+  font-family: "Ubuntu", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.mcd {
+  font-size: 4rem !important; /* Specifica la dimensione solo per h1 */
+}
+h2{
+  font-family: "Roboto", sans-serif;
+  font-weight: 300 !important;
+  font-style: normal;
+  font-size: 1.4rem !important;
+}
+.container-ga {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container {
+  max-width: 600px;
+  margin-right: 40%;
+  padding: 20px;
+  position: relative;
+  z-index: 2;
+}
+p {
+  color: whitesmoke;
+}
+
+.text-btn {
+  color: yellow;
+}
+
+
+#luglio-2023 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.bi-1 {
+  background-image: url('bg-1.jpg');
+  height: 100vh;
+  width: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10%;
+}
+
+.ga {
+  position: absolute;
+  right: 220px;
+  bottom: -15px;
+  width: 90%;
+  
+  object-fit: contain;
+  z-index: 1;
+  filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.3));
+}
+
+.container-ga {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 45%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container {
+  max-width: 600px;
+  margin-right: 45%;
+  padding: 40px;
+  position: relative;
+  z-index: 2;
+}
+.firstpage{
+  position: relative;
+  left: 120px;
+}
+img[alt="Aulab-Logo"] {
+  position: relative;
+  left: 120px;
+  margin-bottom: 2rem;
+  filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.3));
+  transform: scale(1.0);
+  transition: transform 0.95s ease;
+}
+img[alt="Aulab-Logo"]:hover{
+  transform: scale(1.1);
+  transition: transform 0.55s ease, filter 0.4s ease;
+  filter: drop-shadow(0 0 12px rgba(255, 215, 0, 0.6));
+  
+}
+
+
+
+#luglio-2023 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+.text-light {
+  color: #FFD700 !important;
+}
+
+.btn-signup {
+  position: relative;
+  border-color: yellow;
+  border-radius: 120px;
+  background-color: transparent;
+  text-align: center;
+  height: 70px;
+  width: 350px;
+  margin-top: 3rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  transform: scale(1.0);
+  transition: all 0.9s ease;
+  bottom: 42px;
+}
+
+.btn-signup:hover {
+  background-color: #b2a871;
+  border-radius: 120px;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(255, 215, 0, 0.3);
+  transform: translateY 0.45s ease;
+}
+
+
+.text-btn {
+  color: #FFD700;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
+.bi-calendar {
+  display: inline-block;
+  position: relative;
+  font-size: 4rem;
+  color: #FFD700;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+
+.time-display {
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  bottom: 36px;
+  left: 88px;
+}
+
+.wg {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400 !important;
+  font-style: normal;
+  font-size: 1.3rem !important;
+}
+.twok{
+  padding-bottom: 50px;
+  
+}
+
+/* Pagina 2 */
+
+
+.container-pagina2{
+  background-color: rgb(27, 21, 64);
+  height: 66vh;
+  position: relative;
+}
+
+
+#icogaming{
+  position: absolute;
+  top: -40px;
+  left: 340px;
+  height: 75vh;
+  width: 560px;
+  display: flex;
+  justify-content: center;
+  transform: scale(1.0);
+  filter: drop-shadow(0 0 0 rgba(255, 215, 0, 0));
+  transition: transform 0.95s ease, filter 2.2s ease;
+  
+}
+#icogaming:hover{
+  transform: scale(1.1);
+  transition: transform 0.55s ease, filter 0.4s ease;
+  filter: drop-shadow(0 0 12px rgba(255, 215, 0, 0.6));
+  
+}
+.container-pagina2 h2 {
+  display: flex;
+  color: whitesmoke;
+  justify-content: end;
+  position: absolute;
+  top: 6vh;
+  right: 250px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400 !important;
+  font-style: normal;
+  font-size: 2.9rem !important;
+  
+}
+.container-pagina2 p {
+  color: whitesmoke;
+  font-family: "Ubuntu", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.05rem;
+  position: absolute;
+  top: 236px;
+  right: 374px;
+}
+.bg-2{
+  height: 100vh;
+  width: 100%;
+}
+
+
+input{
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: rgb(27, 21, 64) !important;
+  border-bottom: 2px solid rgba(226, 225, 225, 0.12) !important;
+}
+
+.popup {
+  background-color: rgb(27, 21, 64);
+  top: 1870px;
+  left: 635px;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  width: 550px;
+  border: none;
+  height: 710px;
+}
+.popup form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.popup h2 {
+  color: whitesmoke;
+  font-weight: 500 !important;
+  font-size: 2.0rem !important;
+  margin-bottom: 1rem;
+  text-align: start;
+  font-family: "Ubuntu", serif;
+  font-style: normal;
+}
+
+.popup h4 {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  left: 100px;
+  bottom: -7px;
+  position: relative;
+}
+
+.popup p {
+  position: relative;
+  left: 100px;
+  font-size: 0.85rem;
+}
+
+.popup input::placeholder {
+  color: #a0aec0;
+}
+
+.popup input[type="button"] {
+  background-color: #2c5282;
+  color: white;
+  font-weight: 600;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.2s ease;
+}
+
+.popup input[type="button"]:hover {
+  background-color: #2b6cb0;
+}
+
+
+@media (max-width: 480px) {
+  .popup {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+  
+  .popup h2 {
+    font-size: 1.25rem;
+  }
+}
+.circle-icon {
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 85px;
+  aspect-ratio: 1/1;
+  background-color: #FFD700;
+  border-radius: 50%;
+  top: 139px;
+  z-index: 0;
+  left: 17px;
+}
+
+.bi-calendar3 {
+  position: absolute;
+  color: white;
+  font-size: 3rem; /* Adjust size as needed */
+  z-index: 10;
+  top: 144px;
+  left: 35px;
+}
+.popup input {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  border-bottom: 2px solid rgba(226, 225, 225, 0.12) !important;
+}
+.popup input:focus{
+  border-bottom: 2px solid rgb(247, 3, 3) !important;
+  transition: all 0.4s ease;
+}
+.popup input:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.15);
+  background-color: #ffffff;
+  border-color: aquamarine;
+}
+
+.popup input[type="button"] {
+  background-color: #2c5282;
+  color: white;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  padding: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.2s ease;
+  border-radius: 4px;
+}
+
+.popup input[type="button"]:hover {
+  background-color: #2b6cb0;
+}
+form button {
+  border: 5px solid rgb(235, 220, 14);
+  background-color: rgb(235, 220, 14);
+  border-radius: 20px;
+  height: 45px;
+  width: 520px;
+  position: relative;
+  right: 17px;
+  text-align: center;
+}
+.italia {
+  width: 165px;
+}
+.tel {
+  position: relative;
+  bottom:  66px;
+  left: 217px;
+  width: 270px;
+}
+.checkbox{
+  position: absolute;
+  top: 505px;
+  left: 20px;
+  
+}
+.lbcb{
+  position: absolute;
+  top: 498px;
+  left: 45px;
+}
+.pagina4{
+  background-color: rgb(20, 9, 37);
+  height: 66vh;
+  display: flex;
+  justify-content: center;
+align-items: center;
+
+}
+.p4text h3 {
+  color: yellow;
+}
+
+.p4-content{
+  position: relative;
+  top: 85px;
+  right: 140px;
+}
+.p4text {
+  position: relative;
+  left: 400px;
+  bottom: 280px;
+}
+.pagina4 img{
+  height: 40vh;
+  position: relative;
+  right: 60px;
+}
+.p-5 {
+  background-image: url('bg-3.jpg');
+  height: 66vh;
+background-position: center ;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.p-5 h3 {
+  color: yellow;
+  font-size: 2.7rem;
+  font-weight: 400;
+}
+.p-5-text{
+  position: relative;
+  right: 220px;
+  bottom: 10px;
+  font-family: "Ubuntu", serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+  font-style: normal;
+}
+.p-5 img{
+  position: absolute;
+  height: 50vh;
+  bottom: -75px;
+  left: 450px;
+}
